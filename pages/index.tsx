@@ -1,3 +1,5 @@
+import 'mdb-react-ui-kit/dist/css/mdb.min.css';
+import "@fortawesome/fontawesome-free/css/all.min.css";
 import 'bootstrap/dist/css/bootstrap.css';
 import { Button, Card, Container, Form, Spinner } from 'react-bootstrap';
 import { useRef, useState } from 'react';
