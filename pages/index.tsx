@@ -66,7 +66,7 @@ const Index = () => {
   return (
     <Container>
       <div className='text-center mt-2'>
-        <h2>Terabox Dw</h2>
+        <h2>Terabox Direct Link Generator</h2>
       </div>
 
       <Form onSubmit={handleGetDetail}>
@@ -82,6 +82,7 @@ const Index = () => {
           <Button variant="primary" type="submit" disabled={isLoading['main']} >
             Get Detail {isLoading['main'] && <Spinner className='ms-2' as="span" animation="border" size="sm" />}
           </Button>
+          <p>Source: <a href="https://github.com/sapthesh/terabox-directlink/">Sapthesh</a></p>
         </div>
       </Form>
 
