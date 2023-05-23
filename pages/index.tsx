@@ -64,9 +64,9 @@ const Index = () => {
   }
 
   return (
-    <Container>
+    <Container className='cont-main'>
       <div className='text-center mt-2'>
-        <h2>Terabox Direct Link Generator</h2>
+        <h3 className="tdl-heading">Terabox Direct Link Generator</h3>
       </div>
 
       <Form onSubmit={handleGetDetail}>
@@ -74,15 +74,16 @@ const Index = () => {
           <Form.Label>Enter URL Terabox</Form.Label>
           <Form.Control type="text" placeholder="URL" onChange={(e) => setURL(e.target.value)} />
           <Form.Text className="text-muted">
-            https://www.terabox.com/s/1abcdefgxxxx.
+            https://www.terabox.com/s/xxxx.
           </Form.Text>
         </Form.Group>
 
-        <div className='text-center'>
+        <div className='text-center form-btn'>
           <Button variant="primary" type="submit" disabled={isLoading['main']} >
             Get Detail {isLoading['main'] && <Spinner className='ms-2' as="span" animation="border" size="sm" />}
           </Button>
-          <p>Source: <a href="https://github.com/sapthesh/terabox-directlink/">Sapthesh</a></p>
+          <br/>
+          <p>Source: <a href="https://github.com/sapthesh/terabox-directlink/">Terabox DL</a></p>
         </div>
       </Form>
 
