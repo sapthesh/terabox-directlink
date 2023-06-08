@@ -21,7 +21,9 @@ export default async function handler(
         "www.terabox.com",
         "terabox.com",
         "www.teraboxapp.com",
-        "teraboxapp.com"
+        "teraboxapp.com",
+        "1024tera.com",
+        "www.1024tera.com"
     ]
     const dpLogId = "59350200172865410009"
     const jsToken = "3D1900FFEDE22A36D2E6D36ABAAE9CEB74926E292F0986A22DEF1DA25812774556754CAACE1AD4C44240AB83098E4DDC9DAA210A461D3A837D60301AEBC78DFD"
